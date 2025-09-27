@@ -18,7 +18,7 @@ Day createDay() {
  printf("Enter date: ");
  scanf("%d", &newDay.date);
  printf("Enter activity: ");
- scanf(" %[^\n]s", newDay.activity);
+ scanf("%[^\n]s", newDay.activity);
  return newDay;
 }
 // Function to read data for all days of the week
